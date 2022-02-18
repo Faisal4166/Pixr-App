@@ -1,0 +1,51 @@
+import { Dimensions } from "react-native";
+const { width, height } = Dimensions.get("window");
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screen";
+
+const Theme = {
+  red: "#EB6E80",
+  primary: "#385d8c",
+  secondary: "#b2c9e7",
+  grey: "#e7e2e7",
+  txtWhite: "#ffffff",
+  purple: "#e643d5",
+  purple1: "#b50097",
+  green: "#228f2d",
+  backGrey: "#50544d92",
+  createAcc: "#e05600",
+  txtBlue: "blue",
+  white: "white",
+  black: "black",
+  placeHolderCol: "grey",
+  txtBlack: "black",
+  iconCol: "#919191",
+  iconSize: 20,
+  deleteBox: 24,
+  iconSizeSm: 18,
+  iconSizeExSm: 12,
+  bold: "bold",
+  errorColor: "red",
+  txtSmallest: hp("1.5%"),
+  txtSmall: hp("1.7%"),
+  txtMedium: hp("2%"),
+  txtMedium1: hp("2.5%"),
+  txtMedium2: hp("2.6"),
+  txtLarge: hp("3.5%"),
+  txtExtraLarge: hp("5.5%"),
+  align: "center",
+  evenly: "space-evenly",
+  around: "space-around",
+  between: "space-between",
+  row: "row",
+  column: "column",
+  absolute: "absolute",
+  relative: "relative",
+  wp,
+  hp,
+  width: wp("95%"),
+};
+
+export default Theme;

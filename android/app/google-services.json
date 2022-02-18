@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "609407825594",
+    "project_id": "pixr-13dc3",
+    "storage_bucket": "pixr-13dc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609407825594:android:10d55b5b6b847ea3ee3483",
+        "android_client_info": {
+          "package_name": "com.pixr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609407825594-olt6h8l88lt3dp54lsj2fj6rif37ski6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pixr",
+            "certificate_hash": "1e389eea1c4497766ad3ee4b6b5cae80c2ba38f7"
+          }
+        },
+        {
+          "client_id": "609407825594-hlg55g2a8bnfp8tat4l4cf1qsu4fmfqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Sme3Ki4nAl_XrP4JlAK2AawDHd85R_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609407825594-hlg55g2a8bnfp8tat4l4cf1qsu4fmfqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
